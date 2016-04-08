@@ -54,7 +54,7 @@ public class Metodos25B implements ActionListener{
                 Graphics graf = panel.getGraphics();
                 graf.setColor(Color.red);
                 graf.fillOval(50+x,50+y,150,150);
-                x=x+100;
+                x=x+150;
                 y=y+60;
             }
         }
