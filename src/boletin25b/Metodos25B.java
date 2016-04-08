@@ -32,6 +32,7 @@ public class Metodos25B implements ActionListener{
         
         marco.setSize(1000, 1000);
         panel.setSize(1000, 1000);
+        panel.setBackground(Color.black);
         bdibu.addActionListener(this);
         blimp.addActionListener(this);
         panel.add(bdibu);
