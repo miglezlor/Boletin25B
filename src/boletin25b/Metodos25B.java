@@ -55,7 +55,10 @@ public class Metodos25B implements ActionListener{
                 graf.setColor(Color.red);
                 graf.fillOval(50+x,50+y,150,150);
                 x=x+150;
-                y=y+60;
+                if(x>1000){
+                    x=50;
+                    y=200;
+                }
             }
         }
         else{
